@@ -1,0 +1,53 @@
+<!DOCTYPE html>   
+<html>   
+  <head>  
+        <title> Login Page </title>  
+  </head>
+  <style>   
+    Body {  
+      background-color: hsl(221, 90%, 59%);  
+    }  
+    button {   
+      background-color: rgb(222, 252, 222);   
+      color: red;   
+      border: none;   
+      cursor: pointer;   
+    }   
+    form {   
+      border: 0px ;   
+    }   
+    input[type=text], input[type=password] {  
+      margin: 4px 0;  
+      padding: 6px 10px;  
+      border: 2px solid green;     
+    }  
+    button:hover {   
+      opacity: 0.5;   
+    }   
+    .cancelbtn {   
+      width: 30%;   
+      padding: 5px 10px;  
+      margin: 10px 5px;  
+    }   
+    .container {  
+     width: 30%;   
+     padding: 20px;   
+     background-color: lightblue;  
+    }   
+    </style>    
+    <body>    
+        <center> <h1> SmartC </h1> <br> <h4>Sign in</h4></center> 
+        <form> <center>
+            <div class="container">   
+                <label>Username: </label>   
+                <input type="text" placeholder="Enter Username" name="username" required>  <br>
+                <label>Password  : </label>   
+                <input type="password" placeholder="Enter Password" name="password" required> <br> 
+                <button type="submit" size="10">Login</button>   <br>
+                <input type="checkbox" checked="checked"> Remember Me   
+                <button type="button" class="cancelbtn"> Cancel</button> <br>  
+                Forgot <a href="#"> Password? </a>   
+            </div>   </center> 
+        </form>     
+    </body>     
+</html> 
