@@ -28,30 +28,25 @@
 ## Library Prerequisites
 
   ### opencv library
-   'pip install opencv-python'
+  `pip install opencv-python`
 
   ### dlib library
    Before installing dlib ensure cmake 
 
-   'pip install dlib'
+   `pip install dlib`
 
    Build the main dlib library
- 
-   'cd dlib'
- 
-   'mkdir build'
-
-   'cd build'
-
-   'cmake ..'
-
-   'cmake --build .'
-
+   ```
+   cd dlib
+   mkdir build
+   cd build
+   cmake ..
+   cmake --build .
+   ```
    Build and install the Python extensions:
 
-   'cd ..'
- 
-   'python3 setup.py install'
+   `cd ..`
+   `python3 setup.py install`
  
   ### face recognition library
-   'pip3 install face_recognition'
+   `pip3 install face_recognition`
