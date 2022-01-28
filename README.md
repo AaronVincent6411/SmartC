@@ -25,28 +25,33 @@
 
 - Easy to collect attendance
 
-## Library prerequisites
+## Library Prerequisites
 
-### opencv library
-pip install opencv-python
+  ### opencv library
+   'pip install opencv-python'
 
-### dlib library
-Before installing dlib ensure cmake 
+  ### dlib library
+   Before installing dlib ensure cmake 
 
-pip install dlib
+   'pip install dlib'
 
-Build the main dlib library
+   Build the main dlib library
+ 
+   'cd dlib'
+ 
+   'mkdir build'
 
-cd dlib
-mkdir build
-cd build
-cmake ..
-cmake --build .
+   'cd build'
 
-Build and install the Python extensions:
+   'cmake ..'
 
-cd ..
-python3 setup.py install
+   'cmake --build .'
 
-### face recognition library
-pip3 install face_recognition
+   Build and install the Python extensions:
+
+   'cd ..'
+ 
+   'python3 setup.py install'
+ 
+  ### face recognition library
+   'pip3 install face_recognition'
